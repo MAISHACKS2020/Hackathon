@@ -1,6 +1,8 @@
 import os
 import json
 import re
+
+
 data = []
 directory = '/home/jahnic/Git/Hackathon/TweetScraper/Data/tweet'
 for filename in os.listdir(directory):
@@ -9,17 +11,6 @@ for filename in os.listdir(directory):
         tweet_data = file.read()
      
     data.append(tweet_data)
-
-# raw_text = []
-# for dat in data:
-#     text = re.search("full_text\": \"[0-9a-zA-Z,.’'@#\s\*]+", dat)
-#     try:
-#         raw_text.append(text.group())
-#     except:
-#         print('='*50)
-#         print('Could not match:', data[140:200])
-#         print('='*50)
-# full_text
 
 raw_text = []
 for dat in data:
@@ -46,4 +37,10 @@ for txt in raw_text:
         print('='*50)
         
 df = pd.DataFrame({'tweets': clean_text})
-df.to_csv("anti_trump.csv")
+
+low_character_count = df.tweets.apply(lambda x: len(x))
+low_character_count.hist(bins=range(0, 380, 10))
+
+# Cut off records with less than 20 characters
+df = df[low_character_count > 20]
+df.to_csv("pro_trump2.csv")
