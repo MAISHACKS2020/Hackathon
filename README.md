@@ -2,7 +2,7 @@
 Hackathon organized by McGill AI Society
 
 ## Installation
-Packages: numpy, pandas, scikit-learn, nltk, tokenize, re, os
+Packages: numpy, pandas, scikit-learn, nltk, tokenize, re, os   
 Twitter Scraper: https://github.com/jonbakerfish/TweetScraper
 
 ## Inspiration
