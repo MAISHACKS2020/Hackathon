@@ -37,5 +37,5 @@ The next step would be to obtain more data, preferably through the Twitter API, 
 Lastly, we would query Twitter based on geolocation and use our model to aggregate political sentiments with a focus on swing-states.
 
 ## References
-[1] https://www.gsb.stanford.edu/insights/how-polls-influence-behavior
+[1] https://www.gsb.stanford.edu/insights/how-polls-influence-behavior  
 [2] https://www.pewresearch.org/fact-tank/2016/11/09/why-2016-election-polls-missed-their-mark/
