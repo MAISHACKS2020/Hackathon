@@ -1,6 +1,10 @@
 # Hackathon
 Hackathon organized by McGill AI Society
 
+## Installation
+Packages: numpy, pandas, scikit-learn, nltk, tokenize, re, os
+Twitter Scraper: https://github.com/jonbakerfish/TweetScraper
+
 ## Inspiration
 Polls shine a light onto the political landscape of a country and have the power to influence voter behavior [1]. 
 
