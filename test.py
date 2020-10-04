@@ -41,6 +41,6 @@ df = pd.DataFrame({'tweets': clean_text})
 low_character_count = df.tweets.apply(lambda x: len(x))
 low_character_count.hist(bins=range(0, 380, 10))
 
-# Cut off records with less than 20 characters
-df = df[low_character_count > 20]
+# Cut off records with less than 30 characters
+df = df[low_character_count > 30]
 df.to_csv("pro_trump2.csv")
