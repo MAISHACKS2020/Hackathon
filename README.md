@@ -43,5 +43,7 @@ We would then query Twitter based on geolocation and use our model to aggregate 
 Lastly, similar results can be obtained by tracking other social media to get a more accurate snapshot political support in the population.
 
 ## References
-[1] https://www.gsb.stanford.edu/insights/how-polls-influence-behavior
-[2] https://www.pewresearch.org/fact-tank/2016/11/09/why-2016-election-polls-missed-their-mark/
+[1] https://www.gsb.stanford.edu/insights/how-polls-influence-behavior  
+[2] https://www.pewresearch.org/fact-tank/2016/11/09/why-2016-election-polls-missed-their-mark/  
+
+Link to Devpost: https://devpost.com/software/lighthouse-u9wadz
