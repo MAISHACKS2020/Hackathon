@@ -1,5 +1,5 @@
 # Hackathon
-Hackathon organized by McGill AI Society
+Hackathon organized by the McGill AI Society
 
 ## Installation
 **Packages**: numpy, pandas, scikit-learn, nltk, tokenize, re, os   
