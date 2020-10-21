@@ -1,5 +1,7 @@
-# MAIS Hacks 2020
+# MAIS Hacks 2020 - Team Project
 Hackathon organized by the McGill AI Society
+
+# Political sentiment tracker on social media
 
 ## Installation
 **Packages**: numpy, pandas, scikit-learn, nltk, tokenize, re, os   
