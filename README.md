@@ -38,7 +38,7 @@ We are proud of having compiled our own training data and of the 76% validation 
 The importance of teamwork under time constrains.
 
 ## What's next for Lighthouse
-The next step would be to obtain more data, preferably through the Twitter API, and to use a more sophisticated transformer model such as BERT. 
+The next step would be to obtain more data, preferably through Twitter API integration with a web app, and to use a more sophisticated transformer model such as BERT. 
 
 We would then query Twitter based on geolocation and use our model to aggregate political sentiments with a focus on swing-states.
 
