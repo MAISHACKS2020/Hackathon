@@ -1,4 +1,4 @@
-# Hackathon
+# MAIS Hacks 2020
 Hackathon organized by the McGill AI Society
 
 ## Installation
